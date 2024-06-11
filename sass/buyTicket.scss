@@ -146,14 +146,11 @@
         color: #fff;
         background-color: rgb(255, 42, 0);
         border: none;
-        margin-top: 150px;
+        margin-top: 50px;
         font-weight: bold;
         font-size: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        margin: auto;
+        display: block;
+        text-align: center;
 
         a {
             text-decoration: none;

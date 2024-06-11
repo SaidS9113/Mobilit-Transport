@@ -116,14 +116,11 @@
     color: #fff;
     background-color: rgb(255, 42, 0);
     border: none;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    margin-left: 25px;
+    display: block;
+    text-align: center;
  
     a {
         text-decoration: none;

@@ -33,18 +33,11 @@
     color: #fff;
     background-color: rgb(255, 42, 0);
     border: none;
-    margin-top: 30px;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    margin-bottom:60px;
+    display: block;
+    text-align: center;
     a {
         color: #fff;
         text-decoration: none;
