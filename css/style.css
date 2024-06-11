@@ -6,6 +6,7 @@
 #part-1 {
   display: block;
 }
+
 #part-1 #CloseClick3 {
   display: none;
   position: fixed;
@@ -16,9 +17,11 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+
 #part-1 #view-ticket {
   display: none;
 }
+
 #part-1 #view-ticket #buyTicket2 {
   width: 367px;
   padding: 15px;
@@ -30,14 +33,14 @@
   margin-top: 350px;
   font-weight: bold;
   font-size: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   border: 1px solid red;
 }
+
 #part-1 #container-info-p2 {
   display: block;
 }
+
 #part-1 #window-usage-ticket {
   display: none;
   position: fixed;
@@ -52,6 +55,7 @@
   border-top-right-radius: 15px;
   border-top: 1px solid #9e9e9e;
 }
+
 #part-1 #window-usage-ticket button {
   margin-bottom: 50px;
 }
@@ -59,6 +63,7 @@
 #part-2 {
   display: none;
 }
+
 #part-2 #window-bottom-total {
   display: none;
 }
@@ -78,6 +83,7 @@
 #part-6 {
   display: none;
 }
+
 #part-6 #window-validation {
   display: block;
 }
@@ -121,6 +127,7 @@
   align-items: center;
   height: 900px;
 }
+
 .centre-img .p-1-image-bas {
   position: absolute;
   bottom: 0;
@@ -224,9 +231,11 @@
   right: 0;
   left: 0;
 }
+
 .myTitles h1 {
   font-size: 1.6rem;
 }
+
 .myTitles i {
   font-size: 1.8rem;
 }
@@ -241,6 +250,7 @@
   text-align: center;
   margin-top: 40px;
 }
+
 .ticket-vue h3 {
   margin-top: 20px;
   text-transform: uppercase;
@@ -256,17 +266,20 @@
   padding: 20px;
   text-align: center;
 }
+
 .container-info-p-2 h2 {
   font-size: 1.4rem;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
 }
+
 .container-info-p-2 p {
   text-align: center;
   margin-top: 30px;
   word-spacing: 4px;
   font-size: 1.2rem;
 }
+
 .container-info-p-2 button {
   width: 367px;
   padding: 15px;
@@ -282,6 +295,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .container-info-p-2 button a {
   text-decoration: none;
 }
@@ -293,7 +307,9 @@ nav {
   right: 0;
   left: 0;
   padding: 10px;
+  background-color: #fff;
 }
+
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -302,6 +318,7 @@ nav ul {
   width: 100%;
   border: 1px solid 0;
 }
+
 nav ul li a {
   display: flex;
   flex-direction: column;
@@ -323,6 +340,7 @@ nav ul li a {
   font-size: 1.1rem;
   font-family: "Spectral";
 }
+
 .paraInfoDisponible span {
   font-weight: bold;
 }
@@ -341,6 +359,7 @@ nav ul li a {
   justify-content: space-between;
   align-items: center;
 }
+
 .containerInputBus .l-inputBus {
   font-family: "Spectral";
   font-size: 1.1rem;
@@ -365,6 +384,7 @@ nav ul li a {
   right: 0;
   left: 0;
 }
+
 .buyTicket ul {
   display: flex;
   justify-content: space-between;
@@ -372,22 +392,27 @@ nav ul li a {
   width: 100%;
   list-style: none;
 }
+
 .buyTicket ul .bx-x {
   font-size: 2.4rem;
 }
+
 .buyTicket h1 {
   font-size: 1.6rem;
   margin-left: 40px;
 }
+
 .buyTicket .container-filter-dots {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
+
 .buyTicket .container-filter-dots img {
   width: 40px;
 }
+
 .buyTicket .container-filter-dots .bx-dots-horizontal-rounded {
   font-size: 1.8rem;
 }
@@ -399,16 +424,19 @@ nav ul li a {
   align-items: center;
   padding: 0 10px;
 }
+
 .container-flex-ticket .container-info-ticket {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 250px;
 }
+
 .container-flex-ticket .container-info-ticket .title-ticket {
   text-transform: uppercase;
   font-size: 1.1rem;
 }
+
 .container-flex-ticket .container-info-ticket-quantity {
   display: flex;
   justify-content: space-between;
@@ -416,11 +444,13 @@ nav ul li a {
   gap: 7px;
   width: 95px;
 }
+
 .container-flex-ticket .container-info-ticket-quantity .add-moins,
 .container-flex-ticket .container-info-ticket-quantity .add-plus {
   width: 30px;
   cursor: pointer;
 }
+
 .container-flex-ticket .container-info-ticket-quantity .quantity {
   font-weight: bold;
   font-size: 1.8rem;
@@ -433,10 +463,12 @@ nav ul li a {
   border-bottom: 1px solid #d8d8d8;
   padding-bottom: 25px;
 }
+
 .container-time-price p {
   margin-left: 35px;
   color: #656565;
 }
+
 .container-time-price .container-price {
   display: flex;
   justify-content: center;
@@ -462,14 +494,17 @@ nav ul li a {
   display: flex;
   flex-direction: column;
 }
+
 .class-window-bottom-total .title-sous-total {
   text-align: end;
   font-weight: 100;
 }
+
 .class-window-bottom-total .title-sous-total .sous-total {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
 .class-window-bottom-total .button-pay {
   width: 367px;
   padding: 15px;
@@ -487,6 +522,7 @@ nav ul li a {
   position: relative;
   margin: auto;
 }
+
 .class-window-bottom-total .button-pay a {
   text-decoration: none;
   color: #fff;
@@ -503,6 +539,7 @@ nav ul li a {
   right: 0;
   left: 0;
 }
+
 .cartTicket ul {
   display: flex;
   justify-content: space-between;
@@ -510,19 +547,23 @@ nav ul li a {
   width: 245px;
   list-style: none;
 }
+
 .cartTicket ul .chevron-buy {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .cartTicket ul .chevron-buy .bx-chevron-left {
   font-size: 2.8rem;
 }
+
 .cartTicket ul .chevron-buy span {
   font-size: 1.2rem;
   margin-bottom: 1.5px;
   margin-left: -10px;
 }
+
 .cartTicket ul h1 {
   font-size: 1.6rem;
 }
@@ -534,10 +575,12 @@ nav ul li a {
   padding: 35px 15px 20px;
   border-bottom: 1px solid #e4e4e4;
 }
+
 .container-info-order .total-order {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
 .container-info-order .sous-total2 {
   font-weight: bold;
   font-size: 1.2rem;
@@ -549,10 +592,12 @@ nav ul li a {
   align-items: center;
   padding: 35px 13px 20px;
 }
+
 .container-NumberInfo-order .info-order {
   font-size: 1rem;
   text-transform: uppercase;
 }
+
 .container-NumberInfo-order #sharedQuantity1 {
   margin-left: 140px;
   font-weight: bold;
@@ -561,9 +606,11 @@ nav ul li a {
 .container-condition-order {
   padding: 65px 13px 20px;
 }
+
 .container-condition-order #condionBuy {
   margin-left: 10px;
 }
+
 .container-condition-order .lienConditionBuy {
   color: rgb(0, 34, 255);
 }
@@ -605,6 +652,7 @@ nav ul li a {
   bottom: 0;
   margin-left: 25px;
 }
+
 .button-pay a {
   text-decoration: none;
   color: #fff;
@@ -617,10 +665,12 @@ nav ul li a {
   padding: 5px 20px;
   background-color: #f1f1f1;
 }
+
 .container-logo-language img {
   width: 150px;
   height: 40px;
 }
+
 .container-logo-language .option-langage {
   width: 50px;
   height: 50px;
@@ -633,6 +683,7 @@ nav ul li a {
   border: none;
   text-align: center;
 }
+
 .container-logo-language .option-langage .langue {
   text-align: center;
   width: 10px;
@@ -642,6 +693,7 @@ nav ul li a {
   padding: 0px 0 9px;
   background-color: #f1f1f1;
 }
+
 .container-select-price .rising {
   width: 100%;
   padding: 17px;
@@ -658,6 +710,7 @@ nav ul li a {
   background-size: 1.5rem auto, 100%;
   border: none;
 }
+
 .container-select-price .rising option {
   text-align: center;
 }
@@ -668,25 +721,30 @@ nav ul li a {
   flex-direction: column;
   gap: 20px;
 }
+
 .form-pay-card .alignInputImg {
   display: flex;
   flex-direction: none;
   align-items: flex-end;
 }
+
 .form-pay-card .alignInputImg .container-number-card-imgCard {
   display: flex;
   flex-direction: column;
 }
+
 .form-pay-card .alignInputImg .container-number-card-imgCard .l-number-card {
   font-weight: bold;
   color: #606060;
 }
+
 .form-pay-card .alignInputImg .container-number-card-imgCard .i-number-card {
   height: 25px;
   width: 200px;
   background-color: #eaeaea;
   border: 1px solid #868686;
 }
+
 .form-pay-card .alignInputImg .imgCard {
   border: 1px solid #868686;
   width: 50px;
@@ -696,14 +754,17 @@ nav ul li a {
   align-items: center;
   background-color: #eaeaea;
 }
+
 .form-pay-card .alignInputImg .imgCard img {
   width: 30px;
   height: 30px;
 }
+
 .form-pay-card .alignInputImg .enSavoirPlus {
   width: 27px;
   margin-left: 20px;
 }
+
 .form-pay-card .alignInputImg #windowInfo1 {
   display: none;
   position: fixed;
@@ -718,6 +779,7 @@ nav ul li a {
   padding: 20px;
   z-index: 1000;
 }
+
 .form-pay-card .alignInputImg #CloseClick {
   display: none;
   position: fixed;
@@ -728,16 +790,19 @@ nav ul li a {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+
 .form-pay-card .container-expired-card {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 300px;
 }
+
 .form-pay-card .container-expired-card .container-title p {
   font-weight: bold;
   color: #606060;
 }
+
 .form-pay-card .container-expired-card .container-title .month-card {
   height: 30px;
   width: 100px;
@@ -752,6 +817,7 @@ nav ul li a {
   padding: 7px;
   border-radius: 3px;
 }
+
 .form-pay-card .container-expired-card .year-card {
   height: 31.5px;
   width: 100px;
@@ -766,19 +832,23 @@ nav ul li a {
   padding: 7px;
   border-radius: 3px;
 }
+
 .form-pay-card .alignInputImg2 {
   display: flex;
   flex-direction: none;
   align-items: flex-end;
 }
+
 .form-pay-card .alignInputImg2 .container-crypto-card {
   display: flex;
   flex-direction: column;
 }
+
 .form-pay-card .alignInputImg2 .container-crypto-card .l-crypto-card {
   font-weight: bold;
   color: #606060;
 }
+
 .form-pay-card .alignInputImg2 .container-crypto-card .i-crypto-card {
   height: 25px;
   width: 72px;
@@ -786,10 +856,12 @@ nav ul li a {
   border: 1px solid #868686;
   border-radius: 3px;
 }
+
 .form-pay-card .alignInputImg2 .enSavoirPlus {
   width: 27px;
   margin-left: -66px;
 }
+
 .form-pay-card .alignInputImg2 #windowInfo2 {
   display: none;
   position: fixed;
@@ -804,6 +876,7 @@ nav ul li a {
   padding: 20px;
   z-index: 1000;
 }
+
 .form-pay-card .alignInputImg2 #CloseClick2 {
   display: none;
   position: fixed;
@@ -814,10 +887,12 @@ nav ul li a {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+
 .form-pay-card .submit-payment {
   margin: auto;
   margin-top: 30px;
 }
+
 .form-pay-card .submit-payment .i-submit {
   width: 220px;
   height: 40px;
@@ -839,29 +914,35 @@ nav ul li a {
   background-color: #f1f1f1;
   padding-bottom: 80px;
 }
+
 .footer-card-pay .cancel-pay {
   text-align: end;
   padding: 5px 10px;
   background-color: #f1f1f1;
 }
+
 .footer-card-pay .cancel-pay a {
   color: #000;
   text-decoration: none;
 }
+
 .footer-card-pay .imagesFooter {
   border-top: 1px solid #000;
   padding: 20px 20px 0px;
 }
+
 .footer-card-pay .copyRight {
   display: flex;
   justify-content: space-between;
   padding: 0px 60px 0px;
   margin-top: 10px;
 }
+
 .footer-card-pay .copyRight p {
   color: #727272;
   font-size: 0.8rem;
 }
+
 .footer-card-pay .copyRight a {
   color: #727272;
   font-size: 0.8rem;
@@ -882,9 +963,11 @@ nav ul li a {
   padding: 10px;
   height: 550px;
 }
+
 .container-info-payment-accepted .paymentAccepted {
   font-family: "Spectral";
 }
+
 .container-info-payment-accepted .paraPayAccepted {
   text-align: center;
   margin-top: -30px;
@@ -913,6 +996,7 @@ nav ul li a {
   margin: auto;
   margin-bottom: 60px;
 }
+
 .button-close a {
   color: #fff;
   text-decoration: none;
@@ -925,20 +1009,24 @@ ul {
   width: 245px;
   list-style: none;
 }
+
 ul .chevron-buy2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-left: -33px;
 }
+
 ul .chevron-buy2 .bx-chevron-left {
   font-size: 2.8rem;
 }
+
 ul .chevron-buy2 span {
   font-size: 1.2rem;
   margin-bottom: 1.5px;
   margin-left: -10px;
 }
+
 ul .boiteTitle .titleTravel {
   font-size: 1.4rem;
   letter-spacing: 1px;
@@ -952,22 +1040,27 @@ ul .boiteTitle .titleTravel {
   align-items: center;
   gap: 20px;
 }
+
 #containerCardChrono img {
   border-radius: 20px;
   border: 1px solid #acacac;
 }
+
 #containerCardChrono .alignImgText {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 210px;
 }
+
 #containerCardChrono .alignImgText h3 {
   color: #00469b;
 }
+
 #containerCardChrono .alignImgText img {
   margin-bottom: 3px;
 }
+
 #containerCardChrono .containerChrono {
   display: flex;
   flex-direction: column;
@@ -981,6 +1074,7 @@ ul .boiteTitle .titleTravel {
   position: absolute;
   margin-top: 163px;
 }
+
 #containerCardChrono .containerChrono #chrono {
   font-weight: bold;
   font-size: 1.4rem;
@@ -998,15 +1092,18 @@ ul .boiteTitle .titleTravel {
   border-top: 1px solid #9e9e9e;
   margin-top: 45px;
 }
+
 #window-validation .container-titleWindow {
   padding: 10px 60px;
   text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
 #window-validation .container-titleWindow h2 {
   font-size: 1.3rem;
 }
+
 #window-validation .container-date {
   margin-left: 20px;
   width: 180px;
@@ -1014,10 +1111,12 @@ ul .boiteTitle .titleTravel {
   border-radius: 3px;
   padding-top: 2px;
 }
+
 #window-validation .container-date p {
   font-size: 0.9rem;
   color: #4d4d4d;
 }
+
 #window-validation .flex-ColumnValidation-hour {
   display: flex;
   justify-content: flex-start;
@@ -1027,21 +1126,25 @@ ul .boiteTitle .titleTravel {
   border-top: 1px solid rgb(238, 238, 238);
   border-bottom: 1px solid rgb(238, 238, 238);
 }
+
 #window-validation .columnValidation p {
   margin-left: 20px;
   font-weight: bold;
   color: #4d4d4d;
 }
+
 #window-validation .columnValidation h3 {
   margin-left: 20px;
   font-weight: bold;
   color: #000;
   text-transform: uppercase;
 }
+
 #window-validation .hour {
   font-weight: bold;
   color: #262626;
 }
+
 #window-validation .infoCorrespondance {
   display: flex;
   justify-content: flex-start;
@@ -1051,6 +1154,7 @@ ul .boiteTitle .titleTravel {
   gap: 10px;
   font-weight: bold;
 }
+
 #window-validation .flex-column-button {
   display: flex;
   flex-direction: column;
@@ -1062,6 +1166,7 @@ ul .boiteTitle .titleTravel {
   left: 0;
   right: 0;
 }
+
 #window-validation .flex-column-button .button-controle {
   width: 367px;
   padding: 15px;
@@ -1077,10 +1182,12 @@ ul .boiteTitle .titleTravel {
   justify-content: center;
   align-items: center;
 }
+
 #window-validation .flex-column-button .button-controle a {
   text-decoration: none;
   color: #fff;
 }
+
 #window-validation .flex-column-button .button-correspondance {
   width: 367px;
   padding: 15px;
@@ -1096,6 +1203,7 @@ ul .boiteTitle .titleTravel {
   justify-content: center;
   align-items: center;
 }
+
 #window-validation .flex-column-button .button-correspondance a {
   text-decoration: none;
   color: #fff;
@@ -1114,17 +1222,20 @@ ul .boiteTitle .titleTravel {
   gap: 40px;
   margin-top: 20px;
 }
+
 .container-text .text-1 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 10px;
 }
+
 .container-text .text-1 img {
   width: 50px;
   height: 50px;
   margin-left: 15px;
 }
+
 .container-text .text-2 {
   border-top: 1px solid rgb(240, 240, 240);
   border-bottom: 1px solid rgb(240, 240, 240);
@@ -1135,11 +1246,13 @@ ul .boiteTitle .titleTravel {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
 .container-text .text-2 img {
   width: 50px;
   height: 50px;
   margin-left: 15px;
 }
+
 .container-text .text-3 {
   display: flex;
   justify-content: center;
@@ -1149,6 +1262,7 @@ ul .boiteTitle .titleTravel {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
 .container-text .text-3 img {
   width: 50px;
   height: 50px;
@@ -1162,9 +1276,11 @@ ul .boiteTitle .titleTravel {
   padding: 20px;
   margin-top: 20px;
 }
+
 .container-croix-qrcode i {
   font-size: 2rem;
 }
+
 .container-croix-qrcode img {
   margin-top: 20px;
 }
@@ -1190,6 +1306,7 @@ ul .boiteTitle .titleTravel {
   flex-direction: column;
   gap: 20px;
 }
+
 .container-debut-end-validation .container-validation-qrcode span {
   text-transform: uppercase;
   color: #888888;
