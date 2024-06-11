@@ -1,0 +1,166 @@
+.myTitles {
+    padding: 27px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 100px;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 85, 0));
+    color: #fff;
+    position: relative;
+
+    right: 0;
+    left: 0;
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    i {
+        font-size: 1.8rem;
+    }
+}
+
+.ticket-vue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    h3 {
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+}
+
+.container-info-p-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+  
+
+
+    h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 30px;
+        word-spacing: 4px;
+        font-size: 1.2rem;
+    }
+
+    button {
+        
+        width: 367px;
+        padding: 15px;
+        padding-top: 19px;
+        border-radius: 6px;
+        color: #fff;
+        background-color: rgb(255, 42, 0);
+        border: none;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        a {
+            text-decoration: none; 
+        }
+    }
+}
+
+
+
+nav {
+    border-top: 1px solid #9e9e9e;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        border: 1px solid red($color: #000000);
+
+        li {
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: #545454;
+            }
+        }
+    }
+
+}
+
+
+  
+
+    .title-usage-ticket {
+        padding: 0 30px;
+        text-transform: uppercase;
+        font-family: "Spectral";
+    }
+    .paraInfoDisponible{
+        padding: 0 27px;
+        margin-top:17px;
+        font-size: 1.1rem;
+        font-family: "Spectral";
+        span{
+            font-weight: bold;
+        }
+    }
+    .titleChoix{
+        padding: 0 23px;
+        margin-top:17px;
+    }
+
+    .containerInputBus{
+        border: 1px solid #9e9e9e;
+        margin: 25px;
+        padding: 12px 10px;
+        border-radius: 7px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .l-inputBus{
+            font-family: "Spectral";
+            font-size: 1.1rem;
+        }
+       
+    }
+
+    .button-pay {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin-bottom: 50px;
+        
+
+
+    }
+

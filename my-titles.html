@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mobilité | Mes titres</title>
+</head>
+
+<body>
+    <!--------------------------Partie 1--------------------------->
+    <section id="part-1">
+        <!--------------------------En tete de la Partie 1--------------------------->
+        <header class="myTitles">
+            <h1>E-Tickets</h1>
+            <i class='bx bx-dots-horizontal-rounded'></i>
+        </header>
+
+        <section class="container-globale-p-2">
+            <div class="ticket-vue" id="view-ticket">
+                <img id="clickUtilisation" src="img/ticket.png" alt="">
+                <h3><span id="quantity-ticket">1</span> Voyage aix en bus</h3>
+                <p><span id="sharedQuantity2" class="quantity" data-quantity-id="shared"></span> ticket(s) diponible(s)
+                </p>
+                <button id="buyTicket2">Acheter des titres</button>
+            </div>
+            <div id="container-info-p2" class="container-info-p-2">
+                <h2>Aucun titre à utliser.</h2>
+                <p>Vous pouvez acheter des titres pour voyager <br> sur le réseau</p>
+                <button id="buyTicket">Acheter des titres</button>
+            </div>
+
+            <!-------------------------Pied de page de la Partie 1--------------------------->
+            <nav>
+                <ul>
+                    <li><a href="#"><img src="img/i-home.png" alt="">Accueil</a></li>
+                    <li><a href="#"><img src="img/i-horloge.png" alt="">Horaires</a></li>
+                    <li><a href="my-titles.html"><img src="img/i-ticket.png" alt="">Mes titres</a></li>
+                    <li><a href="#"><img src="img/i-danger.png" alt="">Infos trafic</a></li>
+                    <li><a href="#"><img src="img/i-menu.png" alt="">Menu</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div id="CloseClick3"></div>
+        <section id="window-usage-ticket">
+
+            <h2 class="title-usage-ticket"><span id="quantity-ticket">1</span> voyage aix en bus</h2>
+            <p class="paraInfoDisponible"><span id="quantity-ticket">1</span> voyage disponible</p>
+            <h3 class="titleChoix">Vous utilisez</h3>
+            <div class="containerInputBus">
+                <label class="l-inputBus" for="">Le Bus</label><input id="checkbox-condition-utliser" class="i-inputBus"
+                    type="checkbox">
+            </div>
+            <button id="utiliser" class="button-pay">
+                Utiliser
+            </button>
+        </section>
+    </section>
+    <section class="container-p-1-image-center-error">
+        <img src="/img/erreur.png" alt="">
+        <h2>Impossible de se connecter à internet</h2>
+        <p>Cette page Web ne peut pas s'afficher dans Google Chrome,
+            car votre ordinateur <br> n'est pas connecté à internet</p>
+        <span><a href="">Détails</a></span>
+    </section>
+    <!--------------------------Partie 2--------------------------->
+    <section id="part-2">
+        <!--------------------------En tete de la Partie 2--------------------------->
+        <header class="buyTicket">
+            <ul>
+                <li id="croixPage2"><i class='bx bx-x'></i></li>
+                <li>
+                    <h1>Acheter</h1>
+                </li>
+                <li class="container-filter-dots">
+                    <img
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIGQ9Ik00LjM2IDYuMzdoMS42OWExLjc0IDEuNzQgMCAwIDAgLjEzLjM2QTIuMTcgMi4xNyAwIDAgMCA3LjgyIDcuOGExIDEgMCAwIDAgLjI0IDAgMS4wOCAxLjA4IDAgMCAwIC4xOCAwIC43NS43NSAwIDAgMCAuMjQtLjA4aC4wOWExLjU2IDEuNTYgMCAwIDAgLjYyLS4zNiAyLjEyIDIuMTIgMCAwIDAgLjU3LTFoOS44N2EuNS41IDAgMCAwIDAtMUg5Ljc3YTEuOTMgMS45MyAwIDAgMC0xLTEuMjQgMiAyIDAgMCAwLTIuMzEuNCAxLjkxIDEuOTEgMCAwIDAtLjQ2Ljg1SDQuMzZhLjUuNSAwIDAgMC0uNS41LjUxLjUxIDAgMCAwIC41LjV6TTcgNi4xNGMwLS4wNiAwIDAgMCAwem0tLjA3LS40NmExLjIxIDEuMjEgMCAwIDEgMC0uMThIN2EuNDEuNDEgMCAwIDAgMC0uMDlsLjA2LS4wOS4xMS0uMTFBLjUxLjUxIDAgMCAxIDcuNDQgNWguNXMtLjA5IDAgMCAwaC4yOGwuMi4xLjA5LjA3Yy4wNS4wNS4xMS4xLjE2LjE2bC4wNS4wOHYuMWExLjc0IDEuNzQgMCAwIDEgLjA1LjIyczAtLjA5IDAgMHYuMTZhLjI1LjI1IDAgMCAxIDAgLjA4di4yOGwtLjExLjItLjA5LjA5LS4wOC4wOC0uMS4wNmgtLjA3YTIuMzIgMi4zMiAwIDAgMS0uMzguMDYgMyAzIDAgMCAxLS4zMi0uMDlsLS4wOS0uMDVoLS4xN2ExLjI5IDEuMjkgMCAwIDEtLjE2LS4xN2wtLjA2LS4wOVM3IDYuMiA3IDYuMTVWNmEuMjQuMjQgMCAwIDEgMC0uMDl2LS4xOXpNNC4zNiAxMi40OGgxMGEyLjMgMi4zIDAgMCAwIC4xMi4zNCAyLjIgMi4yIDAgMCAwIDEuNjQgMS4wNy42OS42OSAwIDAgMCAuMjUgMGguMTlsLjIzLS4wOGguMWExLjUyIDEuNTIgMCAwIDAgLjYxLS4zNiAyIDIgMCAwIDAgLjU3LTFoMS41NWEuNS41IDAgMCAwIC41LS41LjUuNSAwIDAgMC0uNS0uNUgxOC4xYTEuOTIgMS45MiAwIDAgMC0xLjA1LTEuMjUgMiAyIDAgMCAwLTIuMzEuNCAxLjc4IDEuNzggMCAwIDAtLjQxLjg1aC0xMGEuNS41IDAgMCAwIC4wMyAxLjAzem0xMS0uMjNjMC0uMDYgMCAwIDAgMHptLS4wNi0uNDZhLjQzLjQzIDAgMCAwIDAtLjA1IDEuMjEgMS4yMSAwIDAgMCAuMDUtLjE4di0uMDlhLjQxLjQxIDAgMCAwIC4wNS0uMDlsLjExLS4xMWEuNjUuNjUgMCAwIDEgLjE2LS4wOWguNTFzLS4wOSAwIDAgMGguMTVzLjE4LjA3LjEyIDBsLjIuMTEuMDkuMDYuMTUuMTZhLjQzLjQzIDAgMCAxIDAgLjA3bC4wNi4xYS44My44MyAwIDAgMSAuMDYuMjEuOTIuOTIgMCAwIDEgMCAuMTYuMTkuMTkgMCAwIDAgMCAuMDguMzcuMzcgMCAwIDAgMCAuMDl2LjJsLS4xMS4xOWEuMzkuMzkgMCAwIDEtLjA4LjFsLS4wOC4wNy0uMDkuMDZoLS4wN2EyLjMyIDIuMzIgMCAwIDEtLjM4LjA2IDMgMyAwIDAgMS0uMzItLjA5bC0uMDktLjA1LS4xNC0uMDhhMS4yOSAxLjI5IDAgMCAxLS4xNi0uMTdsLS4wNi0uMDhhMS4wOSAxLjA5IDAgMCAxLS4wOC0uMTV2LS4wOWEuMjkuMjkgMCAwIDAgMC0uMDl2LS4wOWEuMjIuMjIgMCAwIDAgMC0uMDZ6TTYuMTggMTguNzRhMi4xNyAyLjE3IDAgMCAwIDEuNjQgMS4wNyAxIDEgMCAwIDAgLjI0IDBoLjE5YS43NS43NSAwIDAgMCAuMjQtLjA4aC4wOWExLjU2IDEuNTYgMCAwIDAgLjYyLS4zNiAyLjEyIDIuMTIgMCAwIDAgLjU3LTFoOS44N2EuNS41IDAgMCAwIDAtMUg5Ljc3YTEuOTMgMS45MyAwIDAgMC0xLTEuMjQgMiAyIDAgMCAwLTIuMzEuNCAxLjkxIDEuOTEgMCAwIDAtLjQxLjgzSDQuMzZhLjUuNSAwIDAgMC0uNS41LjUxLjUxIDAgMCAwIC41LjVoMS42OWExLjc0IDEuNzQgMCAwIDAgLjEzLjM4em0uODItLjU5YzAtLjA2IDAgMCAwIDB6bS0uMDctLjQ2di0uMDVhMS4yMSAxLjIxIDAgMCAxIDAtLjE4SDdhLjQxLjQxIDAgMCAwIDAtLjA5bC4wNi0uMDlhLjU3LjU3IDAgMCAxIC4xMS0uMTEuNTEuNTEgMCAwIDEgLjI3LS4xN2guNXMtLjA5IDAgMCAwaC4yNmwuMi4xLjA5LjA2Yy4wNSAwIC4xMS4xLjE2LjE2bC4wNS4wOHYuMWEyLjI1IDIuMjUgMCAwIDEgLjA1LjIyczAtLjA5IDAgMHYuMTZhLjI1LjI1IDAgMCAxIDAgLjA4di4yOGwtLjExLjItLjA5LjA5LS4wOC4wOC0uMS4wNkg4LjNhMi4zMiAyLjMyIDAgMCAxLS4zOC4wNiAzIDMgMCAwIDEtLjMyLS4wOWgtLjA5bC0uMTMtLjA4YTEuMjkgMS4yOSAwIDAgMS0uMTYtLjE3bC0uMDYtLjA5czAtLjA5LS4wOC0uMTRIN3YtLjFBLjE5LjE5IDAgMCAxIDcgMThhLjI0LjI0IDAgMCAxIDAtLjA5di0uMTV6IiBmaWxsPSIjZmZmZmZmIiBvcGFjaXR5PSIxIiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvc3ZnPg==" />
+                    <i class='bx bx-dots-horizontal-rounded'></i>
+                </li>
+            </ul>
+        </header>
+        <!--------------------------Ticket 1--------------------------->
+        <section class="infoGlobal-ticket">
+            <section class="container-flex-ticket">
+                <div class="container-info-ticket">
+                    <img src="img/i-ticket.png" alt="">
+                    <h2 class="title-ticket">1 Voyage aix en bus</h2>
+                    <span></span>
+                </div>
+                <div class="container-info-ticket-quantity">
+                    <img class="add-moins" data-quantity-id="quantity1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIH
+                    ZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI
+                    1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgMjY1LjI1MiAyNjUuMjUyIiBzdHls
+                    ZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFz
+                    cz0iIj48Zz48cGF0aCBkPSJNMTMyLjYzMiAwQzU5LjUwMyAwIDAgNTkuNDkyIDAgMTMyLjYyNnM1OS40OTggM
+                    TMyLjYyNiAxMzIuNjMyIDEzMi42MjYgMTMyLjYyMS01OS40OTIgMTMyLjYyMS0xMzIuNjI2UzIwNS43NiAwID
+                    EzMi42MzIgMHptMCAyNTIuNjIzYy02Ni4xNjYgMC0xMTkuOTk3LTUzLjgzLTExOS45OTctMTE5Ljk5N1M2Ni4
+                    0NjUgMTIuNjM1IDEzMi42MzIgMTIuNjM1YzY2LjE2MSAwIDExOS45OTEgNTMuODMgMTE5Ljk5MSAxMTkuOTk
+                    3cy01My44MzEgMTE5Ljk5MS0xMTkuOTkxIDExOS45OTF6IiBzdHlsZT0iIiBmaWxsPSIjZTBlMGUwIiBkYXRh
+                    LW9yaWdpbmFsPSIjMDEwMDAyIiBjbGFzcz0iIiBvcGFjaXR5PSIxIj48L3BhdGg+PHBhdGggZD0iTTE5Ny40M
+                    TYgMTM4LjA2NUg2My4yNTFjLTMuMDA4IDAtNS40MzktMi40MzctNS40MzktNS40MzlzMi40MzEtNS40MzkgN
+                    S40MzktNS40MzloMTM0LjE2NWMzLjAwMiAwIDUuNDM5IDIuNDM3IDUuNDM5IDUuNDM5cy0yLjQzNiA1LjQzOS
+                    01LjQzOSA1LjQzOXoiIHN0eWxlPSIiIGZpbGw9IiNlMGUwZTAiIGRhdGEtb3JpZ2luYWw9IiMwMTAwMDIiIGN
+                    sYXNzPSIiIG9wYWNpdHk9IjEiPjwvcGF0aD48L2c+PC9zdmc+" />
+                    <span id="quantity1" class="quantity" data-quantity-id="quantity1">0</span>
+                    <img class="add-plus" data-quantity-id="quantity1" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIH
+                    ZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI
+                    1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJ
+                    sZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc
+                    +PHBhdGggZD0iTTI1NiAwQzExNC44MzYgMCAwIDExNC44MzYgMCAyNTZzMTE0LjgzNiAyNTYgMjU2IDI1NiA
+                    yNTYtMTE0LjgzNiAyNTYtMjU2UzM5Ny4xNjQgMCAyNTYgMHptMTEyIDI3Ny4zMzJoLTkwLjY2OFYzNjhjMCA
+                    xMS43NzctOS41NTUgMjEuMzMyLTIxLjMzMiAyMS4zMzJzLTIxLjMzMi05LjU1NS0yMS4zMzItMjEuMzMydi0
+                    5MC42NjhIMTQ0Yy0xMS43NzcgMC0yMS4zMzItOS41NTUtMjEuMzMyLTIxLjMzMnM5LjU1NS0yMS4zMzIgMjE
+                    uMzMyLTIxLjMzMmg5MC42NjhWMTQ0YzAtMTEuNzc3IDkuNTU1LTIxLjMzMiAyMS4zMzItMjEuMzMyczIxLjM
+                    zMiA5LjU1NSAyMS4zMzIgMjEuMzMydjkwLjY2OEgzNjhjMTEuNzc3IDAgMjEuMzMyIDkuNTU1IDIxLjMzMiA
+                    yMS4zMzJzLTkuNTU1IDIxLjMzMi0yMS4zMzIgMjEuMzMyem0wIDAiIGZpbGw9IiNmZjE1MDAiIG9wYWNpdHk9
+                    IjEiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+" />
+                </div>
+            </section>
+            <div class="container-time-price">
+                <p>Valable 60 minutes</p>
+                <div class="container-price"><span class="price">1.20€</span></div>
+
+            </div>
+        </section>
+        <!--------------------------Ticket 2--------------------------->
+        <section class="infoGlobal-ticket">
+            <section class="container-flex-ticket">
+                <div class="container-info-ticket">
+                    <img src="img/i-ticket.png" alt="">
+                    <h2 class="title-ticket">10 Voyages aix en bus</h2>
+                    <span></span>
+                </div>
+                <div class="container-info-ticket-quantity">
+                    <img class="add-moins" data-quantity-id="quantity2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvM
+                    jAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnL
+                    zE5OTkveGxpbmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Q
+                    m94PSIwIDAgMjY1LjI1MiAyNjUuMjUyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3I
+                    DAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48cGF0aCBkP
+                    SJNMTMyLjYzMiAwQzU5LjUwMyAwIDAgNTkuNDkyIDAgMTMyLjYyNnM1OS40OTggMTMyLjYyN
+                    iAxMzIuNjMyIDEzMi42MjYgMTMyLjYyMS01OS40OTIgMTMyLjYyMS0xMzIuNjI2UzIwNS43N
+                    iAwIDEzMi42MzIgMHptMCAyNTIuNjIzYy02Ni4xNjYgMC0xMTkuOTk3LTUzLjgzLTExOS45OT
+                    ctMTE5Ljk5N1M2Ni40NjUgMTIuNjM1IDEzMi42MzIgMTIuNjM1YzY2LjE2MSAwIDExOS45OT
+                    EgNTMuODMgMTE5Ljk5MSAxMTkuOTk3cy01My44MzEgMTE5Ljk5MS0xMTkuOTkxIDExOS45OT
+                    F6IiBzdHlsZT0iIiBmaWxsPSIjZTBlMGUwIiBkYXRhLW9yaWdpbmFsPSIjMDEwMDAyIiBjbG
+                    Fzcz0iIiBvcGFjaXR5PSIxIj48L3BhdGg+PHBhdGggZD0iTTE5Ny40MTYgMTM4LjA2NUg2M
+                    y4yNTFjLTMuMDA4IDAtNS40MzktMi40MzctNS40MzktNS40MzlzMi40MzEtNS40MzkgNS40
+                    MzktNS40MzloMTM0LjE2NWMzLjAwMiAwIDUuNDM5IDIuNDM3IDUuNDM5IDUuNDM5cy0yLjQz
+                    NiA1LjQzOS01LjQzOSA1LjQzOXoiIHN0eWxlPSIiIGZpbGw9IiNlMGUwZTAiIGRhdGEtb3Jp
+                    Z2luYWw9IiMwMTAwMDIiIGNsYXNzPSIiIG9wYWNpdHk9IjEiPjwvcGF0aD48L2c+PC9zdmc+" />
+                    <span id="quantity2" class="quantity" data-quantity-id="quantity2">0</span>
+                    <img class="add-plus" data-quantity-id="quantity2" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmc
+                    vMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxp
+                    bmsiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB4PSIwIiB5PSIwIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5
+                    bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9I
+                    iI+PGc+PHBhdGggZD0iTTI1NiAwQzExNC44MzYgMCAwIDExNC44MzYgMCAyNTZzMTE0LjgzNiAyNTYgMjU2IDI1NiA
+                    yNTYtMTE0LjgzNiAyNTYtMjU2UzM5Ny4xNjQgMCAyNTYgMHptMTEyIDI3Ny4zMzJoLTkwLjY2OFYzNjhjMCAxMS43Nz
+                    ctOS41NTUgMjEuMzMyLTIxLjMzMiAyMS4zMzJzLTIxLjMzMi05LjU1NS0yMS4zMzItMjEuMzMydi05MC42NjhIMTQ0Yy
+                    0xMS43NzcgMC0yMS4zMzItOS41NTUtMjEuMzMyLTIxLjMzMnM5LjU1NS0yMS4zMzIgMjEuMzMyLTIxLjMzMmg5MC42Njh
+                    WMTQ0YzAtMTEuNzc3IDkuNTU1LTIxLjMzMiAyMS4zMzItMjEuMzMyczIxLjMzMiA5LjU1NSAyMS4zMzIgMjEuMzMydjkwL
+                    jY2OEgzNjhjMTEuNzc3IDAgMjEuMzMyIDkuNTU1IDIxLjMzMiAyMS4zMzJzLTkuNTU1IDIxLjMzMi0yMS4zMzIgMjEuM
+                    zMyem0wIDAiIGZpbGw9IiNmZjE1MDAiIG9wYWNpdHk9IjEiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSIiP
+                    jwvcGF0aD48L2c+PC9zdmc+" />
+                </div>
+            </section>
+
+            <div class="container-time-price">
+                <p>Valable 60 minutes sur Aix en Bus <br>Multi-validable</p>
+                <div class="container-price"><span class="price">9.00€</span></div>
+            </div>
+        </section>
+        <!--------------------------Fenetre du sous-totale--------------------------->
+        <div id="window-bottom-total" class="class-window-bottom-total">
+            <h4 class="title-sous-total">Total: <span class="sous-total"></span></h4>
+
+            <button id="buy" class="button-pay">Acheter</button>
+        </div>
+    </section>
+    <!--------------------------Partie 3--------------------------->
+    <section id="part-3">
+        <header class="cartTicket">
+            <ul>
+                <li class="chevron-buy">
+                    <i class='bx bx-chevron-left'></i>
+                    <span id="retourPage3">Acheter</span>
+                </li>
+                <li>
+                    <h1>Paiement</h1>
+                </li>
+            </ul>
+        </header>
+        <!--------------------------Total de la commande--------------------------->
+        <div class="container-info-order">
+            <p class="total-order">Total de la commande:</p>
+            <span class="sous-total2"></span>
+        </div>
+        <div class="container-NumberInfo-order">
+            <p class="info-order">1 voyage aix en bus</p>
+            <div id="sharedQuantity1" class="quantity" data-quantity-id="shared">0</div>
+            <span class="sous-total3"></span>
+        </div>
+        <div class="container-condition-order">
+            <input id="checkbox-condition-buy" type="checkbox"><label id="condionBuy" for=""> J'ai lu et j'accepte les
+                <a class="lienConditionBuy" href="">conditions générales de vente</a></label>
+        </div>
+        <button id="pay" class="button-pay">Payer</button>
+    </section>
+    <!--------------------------Partie 4--------------------------->
+    <section id="part-4">
+        <header class="cartTicket">
+            <ul>
+                <li id="retourPage4" class="chevron-buy">
+                    <i class='bx bx-chevron-left'></i>
+                </li>
+                <li>
+                    <h1>Paiement</h1>
+                </li>
+            </ul>
+        </header>
+        <div class="container-logo-language">
+            <a href=""><img src="img/logoMetrople.png" alt=""></a>
+            <select class="option-langage" id="option-langue" name="">
+                <option class="langue" value="">FR</option>
+                <option class="langue" value="">AN</option>
+            </select>
+        </div>
+        <div class="container-select-price">
+
+            <select class="rising" name="" id="">
+                <option class="sous-total4" value=""></option>
+            </select>
+        </div>
+        <form class="form-pay-card" action="#" method="get">
+            <div class="alignInputImg">
+                <div class="container-number-card-imgCard">
+                    <p id="cardNumberError" class="error">Le numéro de carte ne correspond pas au moyens de paiement
+                        <br>séléectionné
+                    </p>
+                    <label class="l-number-card" for="">Numéro de carte</label>
+                    <input class="i-number-card" type="text" id="cardNumber" maxlength="19"
+                        placeholder="1234 5678 9012 3456">
+
+                </div>
+                <div class="imgCard">
+                    <img src="img/credit-card-regular-24.png" alt="">
+
+                </div>
+                <img id="infoCard1" class="enSavoirPlus" src="img/enSavoirPlus.svg" alt="">
+                <div id="CloseClick"></div>
+                <div id="windowInfo1">
+                    <p>Une fois le numéro correctement renseigné,
+                        la marque de votre carte bancaire apparaitra. <br> Si votre carte contien plusieurs manques, une
+                        <br> marque apparaitra par défaut et vous pourrez <br>facilement modifier ce choix en cliquuant
+                        sur la flèche
+                    </p>
+                </div>
+            </div>
+            <div class="container-expired-card">
+                <div class="container-title">
+                    <p id="monthCardError" class="error">Veuillez sélectionné un mois.</p>
+                    <p>Expire fin</p>
+                    <select class="month-card" name="" id="monthCard">
+                        <option value="">mois</option>
+                        <option value="01">01 - Janvier</option>
+                        <option value="02">02 - Février</option>
+                        <option value="03">03 - Mars</option>
+                        <option value="04">04- Avril</option>
+                        <option value="05">05 - Mai</option>
+                        <option value="06">06 - Juin</option>
+                        <option value="07">07 - Juillet</option>
+                        <option value="08">08 - Aout</option>
+                        <option value="09">09 - Septembre</option>
+                        <option value="10">10 - Octobre</option>
+                        <option value="11">11 - Novembre</option>
+                        <option value="12">12 - Décembre</option>
+                    </select>
+                </div>
+                <p id="yearCardError" class="error">Veuillez sélectionner une année.</p>
+                <select class="year-card" name="" id="yearCard">
+                    <option value="">année</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                </select>
+            </div>
+            <div class="alignInputImg2">
+                <div class="container-crypto-card">
+                    <p id="cryptogrammeError" class="error">Veuillez saisir un chiffre.</p>
+                    <label class="l-crypto-card" for="">Cryptogramme visuel</label><input id="cryptogramme"
+                        class="i-crypto-card" type="text" maxlength="3" placeholder="123">
+                </div>
+                <img id="infoCard2" class="enSavoirPlus" src="img/enSavoirPlus.svg" alt="">
+                <div id="CloseClick2"></div>
+                <div id="windowInfo2">
+                    <p>champ est obligatoire uniquement pour les types <br> de paiement possèdant un cryptogramme <br>
+                        cryptogramme visuel de la carte correspond au <br> 3 chiffres présent au verso de votre carte
+                    </p>
+                    <img src="img/Info2Card.png" alt="">
+                </div>
+            </div>
+            <div id="submitFormPay" class="submit-payment">
+                <input class="i-submit" type="submit" value="valider">
+            </div>
+        </form>
+
+        <div class="container-img-card">
+            <img src="img/visa.png" alt="">
+            <img src="img/securite-pay.png" alt="">
+            <img src="img/masterCard.png" alt="">
+        </div>
+
+        <footer class="footer-card-pay">
+            <div class="cancel-pay">
+                <a href="">Annuler et retourner à la boutique</a>
+            </div>
+            <div class="imagesFooter">
+                <img src="img/PayZen.png" alt="">
+                <img src="img/pci.png" alt="">
+            </div>
+
+            <div class="copyRight">
+                <p>Copyright Said &#xa9; 2024</p>
+                <a href="">Mention légale</a>
+            </div>
+        </footer>
+    </section>
+    <!--------------------------Partie 5-------------------------->
+    <section id="part-5">
+        <header id="headerPay" class="cartTicket">
+            <div class="alignTitrePay">
+
+                <h1>Paiement</h1>
+
+            </div>
+        </header>
+        <div class="container-info-payment-accepted">
+            <img src="img/pay-accepter.png" alt="">
+            <h2 class="paymentAccepted">Paiemment accepté</h2>
+            <p class="paraPayAccepted">Retrouvez vos titres dans votre compte et <br> utlisez-les pour voyager
+                facilement</p>
+        </div>
+    </section>
+    <!--------------------------Partie 6-------------------------->
+    <section id="part-6">
+        <header class="cartTicket">
+            <ul>
+                <li id="retourPage6" class="chevron-buy2">
+                    <i class='bx bx-chevron-left'></i>
+                    <span>E-Tickets</span>
+                </li>
+                <li class="boiteTitle">
+                    <h1 class="titleTravel">Votre voyage</h1>
+                </li>
+            </ul>
+        </header>
+        <div id="containerCardChrono">
+            <div class="alignImgText">
+                <h3 class="titleProgressUtilisation">En cours d'utilisation </h3>
+                <img src="img/passer-du-temps.png" alt="">
+            </div>
+            <img src="img/ticket.png" alt="">
+            <div class="containerChrono">
+                <p class="titleEndChrono">Fin de la validité</p>
+                <span id="chrono"></span>
+            </div>
+        </div>
+        <div id="window-validation">
+            <div class="container-titleWindow">
+                <h2 class="titleWindow">Mes validations</h2>
+            </div>
+            <div class="container-date">
+                <p class="paraDate">Aujourd'hui - Vendredi 7 juin</p>
+            </div>
+            <div class="flex-ColumnValidation-hour">
+                <div class="columnValidation">
+                    <p class="quantityChrono"><span id="quantity-ticket">1</span> validation</p>
+                    <h3 class="quantityChrono"><span id="quantity-ticket2">1</span> voyage aix en bus</h3>
+                </div>
+                <div class="hour">
+                    <span>22:58</span>
+                </div>
+            </div>
+            <div class="infoCorrespondance">
+                <img id="conditionCorrespondant" src="img/pourquoi (1).png" alt="">
+                <p>Correspondance, accès au Métro, Controle</p>
+            </div>
+
+            <div class="flex-column-button">
+                <button id="button-controle" class="button-controle"> Métro au Controle</button>
+                <button id="button-correspondance" class="button-correspondance">Prendre une correspondance</button>
+            </div>
+    </section>
+    <section id="part-7">
+        <header class="buyTicket">
+            <ul>
+                <li>
+                    <i id="retourPage7" class='bx bx-x'></i>
+                </li>
+                <li>
+                    <h1 class="titleCorrespondance">Acheter</h1>
+                </li>
+            </ul>
+        </header>
+        <section class="container-text">
+            <div class="text-1">
+                <img src="img/numero-1.png" alt="">
+                <p>
+                    Pour prendre une correspondance : sélectionnez votre titre en cours de validité et cliquez sur le
+                    bouton « Prendre une correspondance
+
+                    Pour les titres RTM, indiquez si vous voyagez dans le Métro ou dans un autre mode de transport (bus,
+                    tramway, ...)
+
+                    Cliquez sur le bouton « Utiliser » pour
+
+                    Si vous voyagez dans un bus ou un tramway, scannez le QR Code affiché à côté de chaque porte pour
+                    valider votre
+
+                    Correspondent
+
+                    Si vous voyagez dans le métro, cliquez sur le bouton « Métro ou Contrôle » et
+
+                    presentez votre on code au lecteur optique leticket présent sur le portillon
+
+                    Le temps de validité de votre titre vous est indiqué sur l'écran "Votre voyage"
+                </p>
+            </div>
+            <div class="text-2">
+                <img src="img/numero-2.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aspernatur, odit ullam culpa nam veniam
+                    animi inventore quasi
+                    labore quia sint? Nihil architecto ipsa recusandae eius eos corrupti quia accusamus!</p>
+            </div>
+            <div class="text-3">
+                <img src="img/numero-3.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quidem iure in odio, unde adipisci
+                    soluta facere harum architecto asperiores
+                    quod ipsam debitis sequi doloremque quibusdam magni numquam dolorum nulla!</p>
+            </div>
+        </section>
+    </section>
+    <section id="part-8">
+        <div id="retourPage8" class="container-croix-qrcode">
+            <i class='bx bx-x'></i>
+            <img src="img/qr-code.png" alt="">
+        </div>
+        <p class="infoQrcode">Dernier rafraichissement à 22:58</p>
+        <h2 class="titleQrcode">1 voyage aix en bus</h2>
+        <div class="container-debut-end-validation">
+            <div class="container-validation-qrcode">
+                <span>date de validation</span>
+                <h3>02/06/2024 à 22:58</h3>
+            </div>
+            <div class="container-validation-qrcode">
+                <span>fin de validité</span>
+                <h3>02/06/2024 à 23:58</h3>
+            </div>
+        </div>
+    </section>
+    <script src="js/formPay.js"></script>
+    <script src="js/windowDynamicInfo.js"></script>
+    <script src="js/addPriceTotal.js"></script>
+    <script src="js/redirection.js"></script>
+</body>
+
+</html>

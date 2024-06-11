@@ -1,0 +1,220 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 245px;
+    list-style: none;
+
+    .chevron-buy2 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: -33px;
+
+        .bx-chevron-left {
+            font-size: 2.8rem;
+
+        }
+
+        span {
+            font-size: 1.2rem;
+            margin-bottom: 1.5px;
+            margin-left: -10px;
+        }
+
+    }
+
+    .boiteTitle {
+        .titleTravel {
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+
+#containerCardChrono {
+    padding: 30px 60px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    img {
+        border-radius: 20px;
+        border: 1px solid #acacac;
+    }
+
+    .alignImgText {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 210px;
+
+        h3 {
+            color: #00469b;
+        }
+
+        img {
+            margin-bottom: 3px;
+
+        }
+    }
+
+    .containerChrono {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 87.5px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        color: #fff;
+        background-color: #000;
+        position: absolute;
+        margin-top: 163px;
+
+        #chrono {
+            font-weight: bold;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+#window-validation {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+
+    padding-bottom: 60px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top: 1px solid #9e9e9e;
+    margin-top: 45px;
+
+    .container-titleWindow {
+        padding: 10px 60px;
+        text-align: center;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+        h2 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .container-date {
+        margin-left: 20px;
+        width: 180px;
+        background-color: #e8e8e8;
+        border-radius: 3px;
+        padding-top: 2px;
+
+        p {
+            font-size: 0.9rem;
+            color: #4d4d4d;
+        }
+    }
+
+    .flex-ColumnValidation-hour {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 125px;
+        padding: 5px;
+        border-top: 1px solid rgb(238, 238, 238);
+        border-bottom: 1px solid rgb(238, 238, 238);
+
+    }
+
+    .columnValidation {
+        p {
+            margin-left: 20px;
+            font-weight: bold;
+            color: #4d4d4d;
+        }
+
+        h3 {
+            margin-left: 20px;
+            font-weight: bold;
+            color: #000;
+            text-transform: uppercase;
+        }
+    }
+
+    .hour {
+        font-weight: bold;
+        color: #262626;
+    }
+
+    .infoCorrespondance {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 165px;
+        gap: 10px;
+        font-weight: bold;
+    }
+
+    .flex-column-button {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        .button-controle {
+            width: 367px;
+            padding: 15px;
+            padding-top: 19px;
+            border-radius: 6px;
+            color: #fff;
+            background-color: rgb(255, 42, 0);
+            border: none;
+            margin-top: 30px;
+            font-weight: bold;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+        }
+
+        .button-correspondance {
+            width: 367px;
+            padding: 15px;
+            padding-top: 19px;
+            border-radius: 6px;
+            color: #fff;
+            background-color: rgb(255, 42, 0);
+            border: none;
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+
+}

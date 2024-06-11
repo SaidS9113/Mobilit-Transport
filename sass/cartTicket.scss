@@ -1,0 +1,132 @@
+.cartTicket {
+    padding: 27px;
+    padding-bottom: 8px;
+    display: flex;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 68, 0));
+    color: #fff;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 245px;
+        list-style: none;
+
+        .chevron-buy {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .bx-chevron-left {
+                font-size: 2.8rem;
+            }
+            
+            span {
+                font-size: 1.2rem;
+                margin-bottom: 1.5px;
+                margin-left: -10px;
+            }
+        }
+
+        h1 {
+            font-size: 1.6rem;
+
+        }
+    }
+}
+
+.container-info-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px 20px;
+    border-bottom: 1px solid #e4e4e4;
+
+    .total-order {
+        font-weight: bold;
+        font-size: 1.2rem;
+
+    }
+
+    .sous-total2 {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}
+
+.container-NumberInfo-order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 13px 20px;
+
+    .info-order {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    #sharedQuantity1{
+        margin-left: 140px;
+        font-weight: bold;
+    }
+
+
+}
+
+.container-condition-order {
+    padding: 65px 13px 20px;
+    #condionBuy {
+        margin-left: 10px;
+    }
+
+    .lienConditionBuy {
+        color: rgb(0, 34, 255);
+    }
+
+}
+#buy{
+    width: 367px;
+    padding: 15px;
+    padding-top: 19px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(255, 42, 0);
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 25px;
+    margin-bottom: 40px;
+
+}
+.button-pay {
+    width: 367px;
+    padding: 15px;
+    padding-top: 19px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(255, 42, 0);
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    margin-left: 25px;
+ 
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}

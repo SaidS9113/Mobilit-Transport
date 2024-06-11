@@ -1,0 +1,52 @@
+#headerPay{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container-info-payment-accepted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    height: 550px;
+
+    .paymentAccepted{
+        font-family: "Spectral";
+    }
+
+    .paraPayAccepted{
+        text-align: center;
+        margin-top: -30px;
+        font-size: 1.2rem;
+        color: #2e2e2e;
+    }
+}
+.button-close {
+    width: 367px;
+    padding: 15px;
+    padding-top: 19px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: rgb(255, 42, 0);
+    border: none;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom:60px;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}

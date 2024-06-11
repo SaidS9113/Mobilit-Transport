@@ -1,0 +1,294 @@
+.container-logo-language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #f1f1f1;
+
+    img {
+        width: 150px;
+        height: 40px;
+    }
+
+    .option-langage {
+        width: 50px;
+        height: 50px;
+        color: #fff;
+        background-color: #414141;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        font-size: 1rem;
+        border: none;
+        text-align: center;
+
+        .langue{
+            text-align: center;
+            width: 10px;
+        }
+    }
+}
+
+.container-select-price {
+    padding: 0px 0 9px;
+    background-color: #f1f1f1;
+
+    .rising {
+        width: 100%;
+        padding: 17px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #727272;
+        background-color: #fff;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        appearance: none;
+        background-image: url(/img/flecheSelectGris.png);
+        background-repeat: no-repeat, repeat;
+        background-position: right .7em top 50%, 0 0;
+        background-size: 1.5rem auto, 100%;
+        border: none;
+
+        option {
+            text-align: center;
+        }
+    }
+}
+
+.form-pay-card {
+    padding: 20px 57px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .alignInputImg {
+        display: flex;
+        flex-direction: none;
+        align-items: flex-end;
+
+        .container-number-card-imgCard {
+            display: flex;
+            flex-direction: column;
+
+            .l-number-card {
+                font-weight: bold;
+                color: #606060;
+            }
+
+            .i-number-card {
+                height: 25px;
+                width: 200px;
+                background-color: #eaeaea;
+                border: 1px solid #868686;
+            }
+            
+        }
+
+        .imgCard {
+            border: 1px solid #868686;
+            width: 50px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #eaeaea;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .enSavoirPlus {
+            width: 27px;
+            margin-left: 20px;
+        }
+
+        #windowInfo1 {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            z-index: 1000;
+        }
+        #CloseClick {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+    }
+
+    .container-expired-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 300px;
+
+        .container-title {
+            p {
+                font-weight: bold;
+                color: #606060;
+            }
+
+            .month-card {
+                height: 30px;
+                width: 100px;
+                border: 1px solid #868686;
+                -moz-appearance: none;
+                -webkit-appearance: none;
+                appearance: none;
+                background-image: url(/img/doubleFlechesInput.svg);
+                background-repeat: no-repeat, repeat;
+                background-position: right .7em top 50%, 0 0;
+                background-size: 1rem auto, 100%;
+                padding: 7px;
+                border-radius: 3px;
+            }
+        }
+
+        .year-card {
+            height: 31.5px;
+            width: 100px;
+            border: 1px solid #868686;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            background-image: url(/img/doubleFlechesInput.svg);
+            background-repeat: no-repeat, repeat;
+            background-position: right .7em top 50%, 0 0;
+            background-size: 1rem auto, 100%;
+            padding: 7px;
+            border-radius: 3px;
+        }
+    }
+
+    .alignInputImg2 {
+        display: flex;
+        flex-direction: none;
+        align-items: flex-end;
+
+        .container-crypto-card {
+            display: flex;
+            flex-direction: column;
+
+            .l-crypto-card {
+                font-weight: bold;
+                color: #606060;
+            }
+
+            .i-crypto-card {
+                height: 25px;
+                width: 72px;
+                background-color: #eaeaea;
+                border: 1px solid #868686;
+                border-radius: 3px;
+            }
+
+        }
+
+        .enSavoirPlus {
+            width: 27px;
+            margin-left: -66px;
+        }
+
+        #windowInfo2 {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 200px;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            z-index: 1000;
+        }
+        #CloseClick2 {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    }
+
+    .submit-payment {
+        margin: auto;
+        margin-top: 30px;
+
+        .i-submit {
+            width: 220px;
+            height: 40px;
+            border-radius: 3px;
+            border: none;
+            background-color: rgb(0, 127, 207);
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+.container-img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+.footer-card-pay {
+    background-color: #f1f1f1;
+    padding-bottom: 80px;
+
+    .cancel-pay {
+        text-align: end;
+        padding: 5px 10px;
+        background-color: #f1f1f1;
+
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+    .imagesFooter {
+        border-top: 1px solid #000;
+        padding: 20px 20px 0px;
+    }
+
+    .copyRight {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 60px 0px;
+        margin-top: 10px;
+
+        p {
+            color: #727272;
+            font-size: 0.8rem;
+        }
+
+        a {
+            color: #727272;
+            font-size: 0.8rem;
+        }
+    }
+}

@@ -1,0 +1,164 @@
+.buyTicket {
+    padding: 27px;
+    padding-bottom: 8px;
+    display: flex;
+    background: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 68, 0));
+    color: #fff;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        list-style: none;
+
+        .bx-x {
+            font-size: 2.4rem;
+
+        }
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        margin-left: 40px;
+
+    }
+
+    .container-filter-dots {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+        img {
+            width: 40px;
+
+        }
+
+        .bx-dots-horizontal-rounded {
+            font-size: 1.8rem;
+        }
+
+    }
+}
+
+
+
+.container-flex-ticket {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+    .container-info-ticket {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 250px;
+
+        .title-ticket {
+            text-transform: uppercase;
+            font-size: 1.1rem;
+        }
+    }
+
+    .container-info-ticket-quantity {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 7px;
+        width: 95px;
+
+        .add-moins,
+        .add-plus {
+            width: 30px;
+            cursor: pointer;
+        }
+
+        .quantity {
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+.container-time-price {
+    padding: 0 13px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 25px;
+
+    p {
+        margin-left: 35px;
+        color: #656565;
+    }
+
+    .container-price {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        background-color: #ededed;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+
+.class-window-bottom-total {
+    padding: 20px;
+    height: 140px;
+    border-top: 1px solid #f3f3f3;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.554) 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+
+    .title-sous-total {
+        text-align: end;
+        font-weight: 100;
+
+        .sous-total {
+            font-weight: bold;
+            font-size: 1.2rem;
+
+        }
+
+    }
+
+    .button-pay {
+        width: 367px;
+        padding: 15px;
+        padding-top: 19px;
+        border-radius: 6px;
+        color: #fff;
+        background-color: rgb(255, 42, 0);
+        border: none;
+        margin-top: 150px;
+        font-weight: bold;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: auto;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+
+        }
+    }
+}

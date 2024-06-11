@@ -1,0 +1,118 @@
+.centre-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+
+
+    .p-1-image-bas {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 20px;
+    }
+
+}
+
+.container-p-1-image-center-error {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .p-1-image-center {
+        display: flex;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .p-1-image-bas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin-top: 5px;
+        display: none;
+    }
+
+   
+
+    .container-p-1-image-center-error {
+        padding: 40px;
+        height: 300px;
+        display: block;
+        margin-top: 250px;
+
+        h2 {
+            font-weight: 400;
+            font-size: 2.1rem;
+            margin-top: 40px;
+        }
+
+        p {
+            margin-top: 20px;
+            word-spacing: 5px;
+            font-size: 1.2rem;
+        }
+
+        span {
+            display: block;
+            margin-top: 50px;
+
+            a {
+                color: #232323;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .p-1-image-center {
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    .p-1-image-bas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin-top: 5px;
+        display: none;
+    }
+
+    
+
+    .container-p-1-image-center-error {
+        padding: 40px;
+        text-align: center;
+        height: 300px;
+        display: block;
+        margin-top: 250px;
+
+        h2 {
+            font-weight: 400;
+            font-size: 2.1rem;
+            margin-top: 40px;
+        }
+
+        p {
+            margin-top: 20px;
+            word-spacing: 5px;
+            font-size: 1.2rem;
+        }
+
+        span {
+            display: block;
+            margin-top: 50px;
+
+            a {
+                color: #232323;
+            }
+        }
+    }
+}

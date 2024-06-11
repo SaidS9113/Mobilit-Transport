@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#part-1 {
+    display: block;
+
+    #CloseClick3 {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 49.2%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+
+    #view-ticket {
+        display: none;
+
+        #buyTicket2 {
+            width: 367px;
+            padding: 15px;
+            padding-top: 19px;
+            border-radius: 6px;
+            color: #fff;
+            background-color: rgb(255, 42, 0);
+            border: none;
+            margin-top: 350px;
+            font-weight: bold;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+
+        }
+    }
+
+    #container-info-p2 {
+        display: block;
+    }
+
+
+    #window-usage-ticket {
+        display: none;
+        position: fixed;
+        right: 0;
+        left: 0;
+        height: 450px;
+        margin-top: 50px;
+        background-color: #fff;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-top: 1px solid #9e9e9e;
+
+        button {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+#part-2 {
+    display: none;
+
+    #window-bottom-total {
+        display: none;
+    }
+}
+
+#part-3 {
+    display: none;
+}
+
+#part-4 {
+    display: none;
+}
+
+#part-5 {
+    display: none;
+}
+
+#part-6 {
+    display: none;
+
+    #window-validation {
+        display: block;
+    }
+}
+
+#part-7 {
+    display: none;
+}
+
+#part-8 {
+    display: none;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #part-1,
+    #part-2,
+    #part-3,
+    #part-4,
+    #part-5,
+    #part-6,
+    #part-7,
+    #part-8 {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #part-1,
+    #part-2,
+    #part-3,
+    #part-4,
+    #part-5,
+    #part-6,
+    #part-7,
+    #part-8 {
+        display: none !important;
+    } 
+}
